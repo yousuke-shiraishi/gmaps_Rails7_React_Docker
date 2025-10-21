@@ -1,0 +1,15 @@
+ja:
+  activerecord:
+    models:
+      gmap: Gマップ
+    attributes:
+      gmap:
+        title: タイトル
+        comment: コメント
+        latitude: 緯度
+        longitude: 経度
+  errors:
+    messages:
+      unauthorized: "認証が必要です。ログインしてください。"
+      not_found: "該当データが見つかりません。"
+      internal_server_error: "サーバーでエラーが発生しました。"
